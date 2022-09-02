@@ -13,9 +13,6 @@ router.register(r'seller', views.SellerViewSet, basename='seller')
 router.register(r'seller', views.CategoryViewSet, basename='category')
 
 
-
-
-
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [

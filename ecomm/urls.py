@@ -2,6 +2,7 @@ from django.urls import include, path  # check if this is correct
 from rest_framework import routers
 from user import views
 from django.contrib import admin
+
 router = routers.DefaultRouter()
 #router.register(r'abc', views.AbcView, basename='abc')
 router.register(r'login', views.LoginViewSet, basename='login')

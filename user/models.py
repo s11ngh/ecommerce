@@ -41,13 +41,17 @@ class Product(models.Model):
     name = models.CharField(max_length=30)
     price = models.IntegerField(max_length=30)
     discount = models.IntegerField(max_length=30)
+    
 class Cart(models.Model):
     product_id=models.IntegerField(max_length=30)
     seller_id = models.IntegerField(max_length=30)
+    
 class Seller(models.Model):
     seller_id=models.IntegerField(max_length=30)
+    
 class Order(models.Model):
     product_id = models.IntegerField(max_length=30)
+    
 class Seller_Product(models.Model):
     product_id =models.IntegerField(max_length=30)
     seller_id =models.IntegerField(max_length=30) 

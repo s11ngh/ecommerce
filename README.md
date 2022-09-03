@@ -22,6 +22,6 @@ Endpoints:
 ## Stack and Tools 
 
 Backend: Django REST (Python), MySQL, Postman, MySQLWorkbench, Visual Studio Code.   
-Frontend (under development): React.js, Ant Design/Bootstrap, Axiom      
+Frontend (under development): React.js, Ant Design/Bootstrap, Axios      
 
 Future Plans: After finsihing front-end development, the website will be hosted on AWS/GCS on a cloud based server or serverless.
